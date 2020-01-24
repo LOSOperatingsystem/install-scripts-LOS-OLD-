@@ -64,4 +64,3 @@ apt-get install gvfs-backends -y
 apt-get install gvfs-common -y
 apt-get update -y
 apt-get upgrade -y
-armbian-config
