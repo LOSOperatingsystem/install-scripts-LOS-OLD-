@@ -46,7 +46,6 @@ apt-get install printer-driver-splix -y
 apt-get install software-properties-gtk -y
 apt-get install system-config-printer -y
 apt-get install transmission-gtk -y
-apt-get install ubuntu-drivers-common -y
 apt-get install xfce4-notifyd -y
 apt-get install xfce4-power-manager -y
 apt-get install xfce4-power-manager-plugins -y
@@ -65,7 +64,7 @@ apt-get install soundconverter -y
 apt-get install handbrake -y
 apt-get install prboom-plus -y
 apt-get install freedoom -y
-apt-get install ffmpeg -y
+apt-get install ffmpeg
 apt-get install audacious -y
 apt-get update -y
 apt-get upgrade -y
