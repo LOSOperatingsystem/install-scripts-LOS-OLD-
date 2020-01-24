@@ -58,4 +58,3 @@ apt-get install pulseaudio -y
 apt-get install gnome-icon-theme -y
 apt-get update -y
 apt-get upgrade -y
-armbian-config
