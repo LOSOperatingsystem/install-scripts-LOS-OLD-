@@ -64,7 +64,7 @@ apt-get install soundconverter -y
 apt-get install handbrake -y
 apt-get install prboom-plus -y
 apt-get install freedoom -y
-apt-get install ffmpeg
+apt-get install ffmpeg -y
 apt-get install audacious -y
 apt-get update -y
 apt-get upgrade -y
