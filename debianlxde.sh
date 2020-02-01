@@ -1,6 +1,6 @@
 #!/bin/sh
 apt clean
-apt autoremove
+apt autoremove -y
 apt-get update -y
 apt-get install lxde -y
 apt-get install xfce4-notifyd -y
