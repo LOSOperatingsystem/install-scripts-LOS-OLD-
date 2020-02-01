@@ -1,5 +1,7 @@
 #!/bin/sh
-apt-get update
+apt clean
+apt autoremove
+apt-get update -y
 apt-get install lxde -y
 apt-get install xfce4-notifyd -y
 apt-get install xfce4-power-manager -y
