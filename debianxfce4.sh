@@ -1,5 +1,7 @@
 #!/bin/sh
-apt-get update
+apt clean
+apt autoremove -y
+apt-get update -y
 apt-get install xfce4 xfce4-terminal -y
 apt-get install file-roller -y
 apt-get install galculator -y
