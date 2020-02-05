@@ -70,3 +70,5 @@ apt-get install ffmpeg -y
 apt-get install audacious -y
 apt-get update -y
 apt-get upgrade -y
+apt autoremove -y
+apt clean
