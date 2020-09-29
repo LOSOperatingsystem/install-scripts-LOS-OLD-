@@ -1,7 +1,5 @@
 #!/bin/sh
-apt clean
-apt autoremove -y
-apt-get update -y
+apt-get update
 apt-get install lxde -y
 apt-get install xfce4-notifyd -y
 apt-get install xfce4-power-manager -y
@@ -60,11 +58,17 @@ apt-get install gnome-disk-utility -y
 apt-get install gnome-icon-theme -y
 apt-get install soundconverter -y
 apt-get install handbrake -y
+apt-get install network-manager-gnome -y
 apt-get install prboom-plus -y
 apt-get install freedoom -y
 apt-get install ffmpeg -y
 apt-get install audacious -y
+apt-get install build-essential -y
+apt-get install libcurl4-openssl-dev -y
+apt-get install libalut-dev -y
+apt-get install mixxx -y
+apt-get install audacity -y
 apt-get update -y
 apt-get upgrade -y
-apt autoremove -y
 apt clean
+armbian-config

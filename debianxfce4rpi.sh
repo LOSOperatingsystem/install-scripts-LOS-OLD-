@@ -1,8 +1,9 @@
 #!/bin/sh
 apt-get update
 apt-get install xfce4 xfce4-terminal -y
-apt-get install file-roller -y
+apt-get install network-manager -y
 apt-get install network-manager-gnome -y
+apt-get install file-roller -y
 apt-get install galculator -y
 apt-get install ghostscript-x -y
 apt-get install hplip -y
@@ -10,7 +11,7 @@ apt-get install hplip-gui -y
 apt-get install foomatic-db-compressed-ppds -y
 apt-get install libmtp-runtime -y
 apt-get install light-locker -y
-apt-get install mpv -y
+apt-get install vlc -y
 apt-get install neofetch -y
 apt-get install lightdm-gtk-greeter-settings -y
 apt-get install ristretto -y
