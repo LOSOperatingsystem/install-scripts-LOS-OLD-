@@ -71,6 +71,8 @@ apt-get install audacious -y
 apt-get install build-essential -y
 apt-get install libcurl4-openssl-dev -y
 apt-get install libalut-dev -y
+apt-get install libsdl2-dev
+apt-get install libsdl2-mixer-dev
 apt-get install mixxx -y
 apt-get install audacity -y
 apt-get update -y
