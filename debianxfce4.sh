@@ -59,6 +59,7 @@ apt-get install putty -y
 apt-get install gimp -y
 apt-get install xarchiver -y
 apt-get install p7zip -y
+apt-get install zip unzip -y
 apt-get install mesa-utils-extra -y
 apt-get install gvfs-backends -y
 apt-get install gvfs-common -y
