@@ -8,6 +8,7 @@ apt-get install ghostscript-x -y
 apt-get install libmtp-runtime -y
 apt-get install light-locker -y
 apt-get install mpv -y
+apt-get install chromium -y
 apt-get install neofetch -y
 apt-get install lightdm-gtk-greeter-settings -y
 apt-get install eom -y
