@@ -79,5 +79,8 @@ apt-get install mixxx -y
 apt-get install audacity -y
 apt-get update -y
 apt-get upgrade -y
+rm /etc/apt/sources.list.d/vscode.list
+rm /etc/apt/trusted.gpg.d/microsoft.gpg
+apt-get update -y
 apt clean
 armbian-config
