@@ -1,6 +1,6 @@
 #!/bin/sh
 apt-get update
-apt-get install lxde -y
+apt-get install lxde-core -y
 apt-get install xfce4-notifyd -y
 apt-get install xfce4-power-manager -y
 apt-get install xfce4-power-manager-plugins -y
