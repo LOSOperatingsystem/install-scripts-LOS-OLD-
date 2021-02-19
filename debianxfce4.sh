@@ -10,7 +10,7 @@ apt-get install hplip-gui -y
 apt-get install foomatic-db-compressed-ppds -y
 apt-get install libmtp-runtime -y
 apt-get install light-locker -y
-apt-get install mpv -y
+apt-get install vlc -y
 apt-get install neofetch -y
 apt-get install lightdm-gtk-greeter-settings -y
 apt-get install ristretto -y
@@ -78,5 +78,7 @@ apt-get install mixxx -y
 apt-get install audacity -y
 apt-get update -y
 apt-get upgrade -y
+rm /etc/apt/sources.list.d/vscode.list
+rm /etc/apt/trusted.gpg.d/microsoft.gpg
+apt-get update
 apt clean
-armbian-config
