@@ -79,5 +79,10 @@ apt-get update -y
 apt-get upgrade -y
 rm /etc/apt/sources.list.d/vscode.list
 rm /etc/apt/trusted.gpg.d/microsoft.gpg
+apt purge snapd -y
+echo 'Package: snapd' > /etc/apt/preferences.d/nosnap.pref
+echo 'Pin: release a=*' >> /etc/apt/preferences.d/nosnap.pref
+echo 'Pin-Priority: -10' >> /etc/apt/preferences.d/nosnap.pref
+cat /etc/apt/preferences.d/nosnap.pref
 apt-get update -y
 apt clean
