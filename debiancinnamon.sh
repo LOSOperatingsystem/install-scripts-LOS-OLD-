@@ -48,7 +48,6 @@ apt-get install printer-driver-splix -y
 apt-get install software-properties-gtk -y
 apt-get install system-config-printer -y
 apt-get install transmission-gtk -y
-apt-get install pavucontrol -y
 apt-get install tumbler -y
 apt-get install mesa-utils -y
 apt-get install gparted -y
