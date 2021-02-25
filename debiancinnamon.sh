@@ -21,8 +21,6 @@ apt-get install lightdm -y
 apt-get install gdebi -y
 apt-get install synaptic -y
 apt-get install htop -y
-apt-get install pulseaudio -y
-apt-get install pulseaudio-module-bluetooth -y
 apt-get install gnome-icon-theme -y
 apt-get install nemo -y
 apt-get install usb-modeswitch -y
@@ -59,7 +57,7 @@ apt-get install zip unzip -y
 apt-get install mesa-utils-extra -y
 apt-get install gvfs-backends -y
 apt-get install gvfs-common -y
-apt-get install soundconverter -y hhhdd
+apt-get install soundconverter -y
 apt-get install handbrake -y
 apt-get install prboom-plus -y
 apt-get install freedoom -y
@@ -80,6 +78,6 @@ apt purge snapd -y
 echo 'Package: snapd' > /etc/apt/preferences.d/nosnap.pref
 echo 'Pin: release a=*' >> /etc/apt/preferences.d/nosnap.pref
 echo 'Pin-Priority: -10' >> /etc/apt/preferences.d/nosnap.pref
-cat /etc/apt/preferences.d/blacklist.pref
+cat /etc/apt/preferences.d/nosnap.pref
 apt-get update -y
 apt clean
