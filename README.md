@@ -1,4 +1,2 @@
 # Important!
-Make sure to read the wiki page
-
-https://github.com/LOSOperatingsystem/install-scripts-LOS/wiki
+NEW REPOSITORY at [install-scripts-LOS](https://github.com/LOSOperatingsystem/install-scripts-LOS)
